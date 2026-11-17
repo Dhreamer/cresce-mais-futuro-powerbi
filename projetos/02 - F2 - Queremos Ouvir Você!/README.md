@@ -79,10 +79,10 @@ Depois do tratamento, organizei o modelo utilizando tabelas de dimensão, uma ta
 
 A estrutura segue o padrão:
 
-- \`Dim ...\`
-- \`Fato Respostas\`
-- \`Ponte Respostas por Tema\`
-- \`Medidas\`
+- `Dim ...`
+- `Fato Respostas`
+- `Ponte Respostas por Tema`
+- `Medidas`
 
 As dimensões representam as diferentes respostas categóricas utilizadas no formulário, enquanto a tabela fato concentra as respostas de cada participante.
 
@@ -257,26 +257,35 @@ Isso pode ajudar a Cresce+ a acompanhar a percepção sobre suas oficinas, ident
 
 A versão pública contém:
 
-- arquivo \`.pbix\` do dashboard na pasta [\`Dashboard\`](./Dashboard/);
-- base fictícia utilizada no portfólio na pasta [\`Dados\`](./Dados/);
-- imagens do relatório na pasta [\`Imagens\`](./Imagens/);
-- documentação complementar na pasta [\`Documentação\`](./Documenta%C3%A7%C3%A3o/).
+- arquivo `.pbix` do dashboard na pasta [`Dashboard`](./Dashboard/);
+- base fictícia utilizada no portfólio na pasta [`Dados`](./Dados/);
+- imagens do relatório na pasta [`Imagens`](./Imagens/);
+- caderno de análise detalhada e relatório executivo na pasta [`Documentação`](./Documenta%C3%A7%C3%A3o/);
 
 A base utilizada no trabalho profissional permanece privada e não faz parte deste repositório.
 
-## Documentação complementar
+# Documentação complementar
 
-O projeto conta com dois documentos que aprofundam a análise e apresentam os resultados em diferentes níveis de leitura:
+Além do dashboard, o projeto conta com dois documentos que registram diferentes níveis da análise realizada.
 
-- [**Análise Detalhada - F2**](./Documenta%C3%A7%C3%A3o/An%C3%A1lise%20Detalhada%20-%20F2.pdf): reúne a análise técnica das perguntas, indicadores, distribuições, cálculos e interpretações.
-- [**Relatório Executivo - F2**](./Documenta%C3%A7%C3%A3o/Relat%C3%B3rio%20Executivo%20-%20F2.pdf): apresenta uma síntese dos principais resultados e pontos de atenção em uma leitura direcionada à tomada de decisão.
+### Caderno de Análise Detalhada
+
+Reúne as análises das perguntas de negócio, distribuições, tabelas, cálculos, interpretações e insights desenvolvidos ao longo dos seis blocos de análise.
+
+[Consultar Caderno de Análise Detalhada F2](./Documenta%C3%A7%C3%A3o/An%C3%A1lise%20Detalhada%20-%20F2.pdf)
+
+### Relatório Executivo
+
+Apresenta uma versão resumida da análise, com os principais indicadores, gráficos, interpretações e pontos de atenção identificados.
+
+[Consultar Relatório Executivo F2](./Documenta%C3%A7%C3%A3o/Relat%C3%B3rio%20Executivo%20-%20F2.pdf)
 
 ---
 
 ## Como abrir o projeto
 
-1. Acesse a pasta [\`Dashboard\`](./Dashboard/).
-2. Baixe o arquivo \`.pbix\` disponível nela.
+1. Acesse a pasta [`Dashboard`](./Dashboard/).
+2. Baixe o arquivo `.pbix` disponível nela.
 3. Abra o arquivo no **Power BI Desktop**.
 4. Navegue normalmente pelas páginas e filtros do relatório.
 
