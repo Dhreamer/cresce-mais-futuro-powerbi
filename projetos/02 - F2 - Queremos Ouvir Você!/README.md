@@ -79,10 +79,10 @@ Depois do tratamento, organizei o modelo utilizando tabelas de dimensão, uma ta
 
 A estrutura segue o padrão:
 
-- `Dim ...`
-- `Fato Respostas`
-- `Ponte Respostas por Tema`
-- `Medidas`
+- \`Dim ...\`
+- \`Fato Respostas\`
+- \`Ponte Respostas por Tema\`
+- \`Medidas\`
 
 As dimensões representam as diferentes respostas categóricas utilizadas no formulário, enquanto a tabela fato concentra as respostas de cada participante.
 
@@ -177,6 +177,57 @@ Os filtros do Power BI também permitem cruzar essas informações e observar di
 
 ---
 
+## Perguntas de negócio e análise
+
+As perguntas do formulário foram organizadas em seis blocos de análise, conectando as respostas aos objetivos do dashboard:
+
+1. **Experiência geral e expectativas:** entender como foi a experiência dos participantes e em que medida a atividade correspondeu ao que esperavam.
+2. **Clareza, utilidade e aprendizado:** avaliar se o conteúdo foi compreendido, considerado útil e se trouxe novos aprendizados.
+3. **Aplicação do aprendizado e preparo:** observar a intenção de aplicar o que foi aprendido e a percepção de preparo após a oficina.
+4. **Condução e estrutura:** analisar a avaliação da didática, do ritmo e da organização das atividades.
+5. **Participação e continuidade:** acompanhar a distribuição das respostas por oficina, a participação de pessoas que estavam chegando pela primeira vez e o interesse em novas atividades.
+6. **Demanda futura e relacionamento:** identificar temas de interesse, disposição para receber novidades e autorização para utilização de depoimentos.
+
+As análises foram relacionadas aos indicadores e visuais disponíveis nas duas páginas do dashboard. Nem todas as perguntas do formulário geraram uma análise individual: foram aprofundadas aquelas que possuíam representação nos visuais ou indicadores utilizados no relatório.
+
+---
+
+## Principais resultados da análise demonstrativa
+
+A base fictícia reúne **200 registros de respostas**, distribuídos entre **oito atividades**. Cada atividade possui entre 20 e 30 registros. Esses registros representam respostas, e não necessariamente 200 pessoas únicas.
+
+Os indicadores abaixo foram calculados a partir dessa base sintética e servem exclusivamente para demonstrar as possibilidades de análise do projeto.
+
+### Qualidade e impacto
+
+- **Experiência geral:** média de 4,59 em uma escala de 1 a 5.
+- **Utilidade do conteúdo:** 186 respostas consideraram o conteúdo útil ou muito útil, correspondendo a 93% da base.
+- **Clareza do conteúdo:** 179 respostas avaliaram o conteúdo como claro ou muito claro, equivalentes a 89,5%.
+- **Didática:** média de 4,64 em uma escala de 1 a 5.
+- **Estrutura:** média de 4,50 em uma escala de 1 a 5.
+- **Recomendação:** média de 9,17 em uma escala de 0 a 10.
+- **Intenção de aplicação:** 179 respostas indicaram intenção de aplicar o aprendizado, sendo 102 com intenção imediata e 77 com intenção em breve.
+- **Percepção de preparo:** 128 respostas indicaram que a pessoa se sentia totalmente preparada após a oficina, correspondendo a 64%.
+- **Interesse em novas oficinas:** 175 respostas indicaram interesse em participar de novas atividades, ou 87,5%.
+
+Um ponto que merece atenção é a diferença entre a intenção de aplicar o aprendizado e a percepção de preparo: embora 89,5% indiquem intenção de aplicação, 64% afirmam estar totalmente preparados. Essa diferença demonstra como os indicadores podem ser analisados em conjunto, em vez de serem observados isoladamente.
+
+Entre as partes consideradas mais úteis, **exercícios e atividades** receberam 53 seleções (26,5%), seguidos por **exemplos práticos**, com 52 seleções (26%).
+
+### Participação e demanda
+
+- **Primeira participação:** 139 respostas indicaram que era a primeira participação na Cresce+, correspondendo a 69,5%.
+- **Temas desejados:** inteligência artificial apareceu em 89 seleções (44,5%); Excel, Power BI e Dados, em 70 (35%); e Instagram e Conteúdo, em 69 (34,5%).
+- **Múltipla escolha:** foram registradas 638 seleções de temas, com média de 3,19 temas por resposta.
+- **Interesse em receber novidades:** 154 respostas indicaram interesse (77%) e 24 informaram que já participavam (12%).
+- **Autorização para depoimentos:** 165 respostas autorizaram algum formato de utilização (82,5%); 111 com identificação pelo nome (55,5%) e 54 de forma anônima (27%).
+
+Como a pergunta sobre temas permite selecionar várias opções, os percentuais são calculados sobre o total de respostas e não representam partes exclusivas de um todo. Por isso, a soma dos percentuais de temas pode ultrapassar 100%.
+
+Os resultados são apresentados como exemplos de leitura dos indicadores e não devem ser interpretados como evidência sobre o desempenho real das oficinas da Cresce+ Futuro.
+
+---
+
 ## Como a análise pode apoiar a Cresce+
 
 O dashboard reúne em uma única visão informações sobre a experiência dos participantes e sobre o que eles gostariam de encontrar nas próximas atividades.
@@ -197,6 +248,8 @@ Isso pode ajudar a Cresce+ a acompanhar a percepção sobre suas oficinas, ident
 - Visualização de dados
 - Construção de dashboard
 - Análise exploratória
+- Organização de perguntas de negócio
+- Interpretação de indicadores e resultados
 
 ---
 
@@ -204,19 +257,26 @@ Isso pode ajudar a Cresce+ a acompanhar a percepção sobre suas oficinas, ident
 
 A versão pública contém:
 
-- arquivo `.pbix` do dashboard na pasta [`Dashboard`](./Dashboard/);
-- base fictícia utilizada no portfólio na pasta [`Dados`](./Dados/);
-- imagens do relatório na pasta [`Imagens`](./Imagens/);
-- documentação do projeto neste README.
+- arquivo \`.pbix\` do dashboard na pasta [\`Dashboard\`](./Dashboard/);
+- base fictícia utilizada no portfólio na pasta [\`Dados\`](./Dados/);
+- imagens do relatório na pasta [\`Imagens\`](./Imagens/);
+- documentação complementar na pasta [\`Documentação\`](./Documenta%C3%A7%C3%A3o/).
 
 A base utilizada no trabalho profissional permanece privada e não faz parte deste repositório.
+
+## Documentação complementar
+
+O projeto conta com dois documentos que aprofundam a análise e apresentam os resultados em diferentes níveis de leitura:
+
+- [**Análise Detalhada - F2**](./Documenta%C3%A7%C3%A3o/An%C3%A1lise%20Detalhada%20-%20F2.pdf): reúne a análise técnica das perguntas, indicadores, distribuições, cálculos e interpretações.
+- [**Relatório Executivo - F2**](./Documenta%C3%A7%C3%A3o/Relat%C3%B3rio%20Executivo%20-%20F2.pdf): apresenta uma síntese dos principais resultados e pontos de atenção em uma leitura direcionada à tomada de decisão.
 
 ---
 
 ## Como abrir o projeto
 
-1. Acesse a pasta [`Dashboard`](./Dashboard/).
-2. Baixe o arquivo `.pbix` disponível nela.
+1. Acesse a pasta [\`Dashboard\`](./Dashboard/).
+2. Baixe o arquivo \`.pbix\` disponível nela.
 3. Abra o arquivo no **Power BI Desktop**.
 4. Navegue normalmente pelas páginas e filtros do relatório.
 
