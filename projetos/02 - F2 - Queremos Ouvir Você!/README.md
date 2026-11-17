@@ -179,33 +179,37 @@ Os filtros do Power BI também permitem cruzar essas informações e observar di
 
 # Perguntas de negócio e análise
 
-Além da construção do dashboard, organizei a análise a partir de seis blocos de perguntas de negócio. O objetivo foi entender como a experiência das oficinas é avaliada, o que os participantes levam dos encontros e quais demandas podem orientar as próximas atividades.
+Além da construção do dashboard, desenvolvi uma análise orientada por perguntas de negócio. O objetivo foi compreender como os participantes avaliaram as atividades, quais aspectos foram mais valorizados e o que suas respostas podem indicar para o planejamento de futuras oficinas.
+
+A análise foi organizada em seis blocos:
 
 ### 1. Experiência geral e expectativas
 
-Analisei a avaliação geral da experiência e a recomendação, buscando compreender a percepção dos participantes após as oficinas. A pergunta sobre expectativas faz parte desse bloco de contexto, mas não recebeu uma análise isolada por não possuir um visual próprio no dashboard.
+Investiguei como os participantes avaliaram a experiência geral e qual foi a disposição declarada para recomendar as atividades, utilizando as médias e distribuições das avaliações.
 
 ### 2. Clareza, utilidade e aprendizado
 
-Avaliei se o conteúdo foi considerado claro e útil e quais partes foram percebidas como mais proveitosas. A pergunta sobre ter aprendido algo novo foi considerada no contexto do bloco, mas não recebeu uma análise individual por não possuir representação específica no dashboard.
+Analisei a percepção sobre a clareza e a utilidade dos conteúdos, além de identificar quais partes das oficinas foram consideradas mais úteis pelos participantes.
 
 ### 3. Aplicação do aprendizado e preparo
 
-Investiguei a intenção de aplicar o que foi aprendido e a percepção de preparo após a oficina. A leitura conjunta desses indicadores permite observar se a intenção declarada de aplicação acompanha a confiança para colocar o aprendizado em prática.
+Investiguei a intenção declarada de aplicar os conhecimentos apresentados e a percepção dos participantes sobre o próprio preparo para utilizá-los, incluindo a comparação entre esses dois indicadores.
 
 ### 4. Condução e estrutura
 
-Analisei as avaliações sobre didática e estrutura das atividades, buscando entender como os participantes perceberam a condução dos encontros. A pergunta sobre ritmo integra o bloco, mas não foi aprofundada individualmente por não possuir um visual próprio no dashboard.
+Analisei as avaliações da didática e das condições oferecidas para participação nas atividades, considerando tanto os encontros presenciais quanto os realizados online.
 
 ### 5. Participação e continuidade
 
-Acompanhei a distribuição das respostas entre as oito atividades, a proporção de pessoas que estavam participando pela primeira vez e o interesse em participar de novas oficinas. Esse bloco permite observar tanto a participação nas atividades quanto a possibilidade de continuidade.
+Explorei a distribuição das respostas entre as oito atividades, a proporção de primeiras participações e o interesse declarado em participar de novas oficinas.
 
 ### 6. Demanda futura e relacionamento
 
-Explorei os temas desejados para próximas oficinas, o interesse em receber novidades e a autorização para utilização de depoimentos. Essas informações ajudam a identificar assuntos de interesse e a entender a disposição dos participantes em manter relacionamento com a Cresce+.
+Investiguei os temas que despertam maior interesse para os próximos encontros, a disposição para receber novidades e as condições de autorização para utilização dos depoimentos.
 
-A análise utilizou distribuições, médias, percentuais e comparações entre indicadores. Nas perguntas de múltipla escolha, cada resposta pode conter mais de uma opção, portanto os percentuais dos temas não representam partes exclusivas de um todo.
+A análise utilizou distribuições, médias, percentuais e comparações entre indicadores. Nos cruzamentos, foram considerados os grupos correspondentes a cada análise. Nas perguntas de múltipla escolha, cada resposta pode contribuir com mais de uma seleção.
+
+Algumas perguntas do formulário não receberam uma análise independente porque não possuíam um visual correspondente no dashboard. A seleção priorizou os indicadores efetivamente apresentados no relatório.
 
 ---
 
@@ -215,31 +219,30 @@ A partir da exploração da base pública, alguns resultados se destacaram:
 
 | Indicador | Resultado |
 |---|---:|
-| Experiência geral | média de 4,59 / 5 |
+| Respostas registradas | 200 |
+| Atividades avaliadas | 8 |
+| Média da experiência geral | 4,59 / 5 |
 | Conteúdo útil ou muito útil | 186 (93%) |
 | Conteúdo claro ou muito claro | 179 (89,5%) |
-| Avaliação da didática | média de 4,64 / 5 |
-| Avaliação da estrutura | média de 4,50 / 5 |
-| Recomendação | média de 9,17 / 10 |
-| Intenção de aplicar o aprendizado | 179 (89,5%) |
-| Pessoas totalmente preparadas | 128 (64%) |
+| Média da didática | 4,64 / 5 |
+| Média da estrutura | 4,50 / 5 |
+| Média de recomendação | 9,17 / 10 |
+| Pretendem aplicar o aprendizado | 179 (89,5%) |
+| Sentem-se plenamente preparados | 128 (64%) |
 | Interesse em novas oficinas | 175 (87,5%) |
-| Primeira participação na Cresce+ | 139 (69,5%) |
-| Interesse em Inteligência Artificial | 89 seleções (44,5%) |
-| Interesse em receber novidades | 154 (77%) |
-| Algum tipo de autorização para depoimento | 165 (82,5%) |
 
 Outros pontos relevantes identificados durante a análise:
 
-- A intenção de aplicar o aprendizado (89,5%) ficou 25,5 pontos percentuais acima da proporção de participantes que se consideraram totalmente preparados (64%). Essa diferença ajuda a identificar um ponto que merece atenção quando os indicadores são analisados em conjunto.
-- Exercícios e atividades foram apontados como a parte mais útil por 53 respostas (26,5%), seguidos por exemplos práticos, com 52 (26%).
-- Além de Inteligência Artificial, Excel, Power BI e Dados recebeu 70 seleções (35%), enquanto Instagram e Conteúdo recebeu 69 (34,5%).
-- Foram registradas 638 seleções de temas, com média de 3,19 temas por resposta.
-- As oito atividades possuem entre 20 e 30 registros de respostas cada. Esses registros não devem ser interpretados como 200 pessoas únicas.
+- Exercícios e atividades (26,5%) e exemplos práticos (26%) foram as partes mais apontadas como úteis nas oficinas.
+- Existe uma diferença de 25,5 pontos percentuais entre a intenção de aplicar o aprendizado (89,5%) e a percepção de preparo (64%), indicando uma oportunidade de aproximar essas duas dimensões.
+- 139 respostas (69,5%) indicaram primeira participação em uma atividade da Cresce+.
+- Inteligência Artificial foi o tema mais selecionado para futuras atividades, com 89 seleções (44,5%).
+- Excel, Power BI e Dados apareceu em 70 seleções (35%), seguido por Instagram e Conteúdo, com 69 (34,5%).
+- Foram registradas 638 seleções de temas, resultando em uma média de 3,19 temas por resposta.
+- 154 respostas (77%) demonstraram interesse em receber novidades, conteúdos e oportunidades.
+- 165 respostas (82,5%) autorizaram algum tipo de utilização de depoimento, sendo 111 (55,5%) com identificação e 54 (27%) de forma anônima.
 
-Como a pergunta sobre temas permite selecionar mais de uma opção, os percentuais representam a parcela de respostas que selecionou cada tema e podem ultrapassar 100% quando somados.
-
-Esses resultados são provenientes exclusivamente da base sintética criada para o portfólio. Eles demonstram como as perguntas de negócio, os indicadores e as interpretações podem ser utilizados para explorar os dados, mas não representam resultados reais da Cresce+ Futuro.
+Esses resultados são provenientes exclusivamente da base sintética criada para o portfólio. Eles demonstram como as perguntas de negócio, os indicadores e as comparações podem ser utilizados para avaliar as atividades, mas não representam resultados reais da Cresce+ Futuro.
 
 ---
 
@@ -249,6 +252,10 @@ O dashboard reúne em uma única visão informações sobre a experiência dos p
 
 Isso pode ajudar a Cresce+ a acompanhar a percepção sobre suas oficinas, identificar temas com maior procura e observar oportunidades de melhoria conforme novas respostas são coletadas.
 
+A comparação entre intenção de aplicação e percepção de preparo também permite identificar possíveis necessidades de materiais complementares, atividades práticas e acompanhamento após os encontros.
+
+Além disso, os resultados sobre temas desejados e interesse em receber novidades podem apoiar o planejamento de conteúdos e estratégias de relacionamento com o público.
+
 ---
 
 # Documentação complementar
@@ -257,15 +264,15 @@ Além do dashboard, o projeto conta com dois documentos que registram diferentes
 
 ### Caderno de Análise Detalhada
 
-Reúne as análises das perguntas de negócio, distribuições, tabelas, cálculos, interpretações e insights desenvolvidos ao longo dos seis blocos de análise.
+Reúne as perguntas de negócio, distribuições, tabelas, cálculos, interpretações, insights e conclusões desenvolvidos ao longo dos seis blocos de análise.
 
-[Consultar Caderno de Análise Detalhada F2](./Documenta%C3%A7%C3%A3o/An%C3%A1lise%20Detalhada%20-%20F2.pdf)
+[Consultar Caderno de Análise Detalhada F2](./Documenta%C3%A7%C3%A3o/Caderno_Analise_Detalhada_F2.pdf)
 
 ### Relatório Executivo
 
-Apresenta uma versão resumida da análise, com os principais indicadores, gráficos, interpretações e pontos de atenção identificados.
+Apresenta uma versão resumida da análise, com os principais indicadores, gráficos, interpretações e oportunidades identificadas.
 
-[Consultar Relatório Executivo F2](./Documenta%C3%A7%C3%A3o/Relat%C3%B3rio%20Executivo%20-%20F2.pdf)
+[Consultar Relatório Executivo F2](./Documenta%C3%A7%C3%A3o/Relatorio_Executivo_F2.pdf)
 
 ---
 
@@ -281,8 +288,9 @@ Apresenta uma versão resumida da análise, com os principais indicadores, gráf
 - Visualização de dados
 - Construção de dashboard
 - Análise exploratória
-- Organização de perguntas de negócio
-- Interpretação de indicadores e resultados
+- Definição de perguntas de negócio
+- Análise comparativa entre atividades
+- Interpretação de indicadores e construção de insights
 
 ---
 
@@ -294,6 +302,7 @@ A versão pública contém:
 - base fictícia utilizada no portfólio na pasta [`Dados`](./Dados/);
 - imagens do relatório na pasta [`Imagens`](./Imagens/);
 - caderno de análise detalhada e relatório executivo na pasta [`Documentação`](./Documenta%C3%A7%C3%A3o/);
+- documentação do projeto neste README.
 
 A base utilizada no trabalho profissional permanece privada e não faz parte deste repositório.
 
