@@ -236,6 +236,24 @@ Isso pode ajudar a Cresce+ a acompanhar a percepção sobre suas oficinas, ident
 
 ---
 
+# Documentação complementar
+
+Além do dashboard, o projeto conta com dois documentos que registram diferentes níveis da análise realizada.
+
+### Caderno de Análise Detalhada
+
+Reúne as análises das perguntas de negócio, distribuições, tabelas, cálculos, interpretações e insights desenvolvidos ao longo dos seis blocos de análise.
+
+[Consultar Caderno de Análise Detalhada F2](./Documenta%C3%A7%C3%A3o/An%C3%A1lise%20Detalhada%20-%20F2.pdf)
+
+### Relatório Executivo
+
+Apresenta uma versão resumida da análise, com os principais indicadores, gráficos, interpretações e pontos de atenção identificados.
+
+[Consultar Relatório Executivo F2](./Documenta%C3%A7%C3%A3o/Relat%C3%B3rio%20Executivo%20-%20F2.pdf)
+
+---
+
 # O que trabalhei neste projeto
 
 - Power BI Desktop
@@ -263,22 +281,6 @@ A versão pública contém:
 - caderno de análise detalhada e relatório executivo na pasta [`Documentação`](./Documenta%C3%A7%C3%A3o/);
 
 A base utilizada no trabalho profissional permanece privada e não faz parte deste repositório.
-
-# Documentação complementar
-
-Além do dashboard, o projeto conta com dois documentos que registram diferentes níveis da análise realizada.
-
-### Caderno de Análise Detalhada
-
-Reúne as análises das perguntas de negócio, distribuições, tabelas, cálculos, interpretações e insights desenvolvidos ao longo dos seis blocos de análise.
-
-[Consultar Caderno de Análise Detalhada F2](./Documenta%C3%A7%C3%A3o/An%C3%A1lise%20Detalhada%20-%20F2.pdf)
-
-### Relatório Executivo
-
-Apresenta uma versão resumida da análise, com os principais indicadores, gráficos, interpretações e pontos de atenção identificados.
-
-[Consultar Relatório Executivo F2](./Documenta%C3%A7%C3%A3o/Relat%C3%B3rio%20Executivo%20-%20F2.pdf)
 
 ---
 
