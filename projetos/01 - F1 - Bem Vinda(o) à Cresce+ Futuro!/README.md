@@ -143,11 +143,90 @@ Os filtros do Power BI também permitem cruzar essas informações e observar di
 
 ---
 
+# Perguntas de negócio e análise
+
+Além da construção do dashboard, desenvolvi uma análise orientada por perguntas de negócio. O objetivo foi entender o que as respostas poderiam revelar sobre o público, suas necessidades e suas preferências, indo além da simples apresentação dos indicadores.
+
+A análise foi organizada em seis blocos:
+
+### 1. Perfil do público
+
+Investiguei a distribuição por faixa etária e identidade de gênero, buscando compreender a composição geral das pessoas que chegam às iniciativas da Cresce+.
+
+### 2. Aquisição
+
+Analisei os primeiros canais pelos quais os participantes conheceram a Cresce+ e explorei como esses canais se relacionam com diferentes características do público.
+
+### 3. Relação com o empreendedorismo
+
+Investiguei quantas pessoas já possuem um negócio, pretendem empreender ou buscam conhecimento, além de cruzar essas informações com a fase declarada do negócio.
+
+### 4. Motivações e necessidades
+
+Analisei os principais motivos de cadastro e comparei as motivações entre os diferentes grupos de participantes, buscando identificar necessidades recorrentes.
+
+### 5. Setores e temas de interesse
+
+Explorei os setores de atuação ou interesse, os temas mais selecionados e as diferenças de interesse entre participantes em diferentes fases do negócio e setores.
+
+### 6. Comunicação e relacionamento
+
+Analisei a preferência por canais de comunicação e o interesse declarado em receber novidades, conteúdos e convites, incluindo cruzamentos com o perfil dos participantes.
+
+A análise utilizou distribuições, comparações e tabelas cruzadas. Nos cruzamentos, os percentuais foram calculados considerando o total do grupo analisado. Nas perguntas de múltipla escolha, cada participante pode aparecer em mais de uma categoria.
+
+---
+
+# Principais resultados da análise demonstrativa
+
+A partir da exploração da base pública, alguns resultados se destacaram:
+
+| Indicador | Resultado |
+|---|---:|
+| Participantes mulheres | 114 (57%) |
+| Pessoas com negócio próprio | 98 (49%) |
+| Serviços e Comércio | 121 (60,5%) |
+| Pessoas interessadas em Tecnologia e ferramentas digitais | 128 (64%) |
+| Pessoas interessadas em receber conteúdos e novidades | 179 (89,5%) |
+
+Outros pontos relevantes identificados durante a análise:
+
+- Eventos ou parcerias, WhatsApp e Instagram representam juntos 71% dos primeiros canais de descoberta informados.
+- Melhorar o negócio ou trabalho é o principal motivo de cadastro, com 75 participantes (37,5%).
+- Tecnologia, Marketing e vendas e Planejamento de negócios estão entre os temas mais selecionados.
+- 173 participantes (86,5%) incluem o WhatsApp entre suas preferências de comunicação.
+
+Esses resultados são provenientes exclusivamente da base sintética criada para o portfólio. Eles demonstram como as perguntas de negócio, os cruzamentos e as interpretações podem ser utilizados para explorar os dados, mas não representam indicadores reais da instituição.
+
+---
+
 ## Como a análise pode apoiar a Cresce+
 
 O dashboard reúne informações que podem ajudar a Cresce+ a compreender melhor quem está chegando às suas iniciativas, quais assuntos despertam mais interesse e quais são as preferências desse público.
 
+A análise também permite explorar diferenças entre grupos, identificar padrões de interesse e levantar oportunidades para planejamento de conteúdos, atividades e estratégias de relacionamento.
+
+Em vez de observar cada indicador isoladamente, os cruzamentos ajudam a construir uma visão mais completa do público e das necessidades declaradas.
+
 Essas informações também criam uma base para acompanhar novas coletas e observar mudanças no perfil e nos interesses dos participantes ao longo do tempo.
+
+---
+
+# Documentação complementar
+
+Além do dashboard, o projeto conta com dois documentos que registram diferentes níveis da análise realizada.
+
+### Caderno de Análise Detalhada
+
+Reúne as perguntas de negócio, distribuições, tabelas, cruzamentos, interpretações, insights e conclusões desenvolvidos ao longo dos seis blocos de análise.
+
+[Consultar Caderno de Análise Detalhada F1](./Documenta%C3%A7%C3%A3o/An%C3%A1lise%20Detalhada%20-%20F1.pdf)
+
+### Relatório Executivo
+
+Apresenta uma versão resumida da análise, com os principais indicadores, gráficos, interpretações e oportunidades identificadas.
+
+[Consultar Relatório Executivo F1](./Documenta%C3%A7%C3%A3o/Relat%C3%B3rio%20Executivo%20-%20F1.pdf)
 
 ---
 
@@ -162,6 +241,9 @@ Essas informações também criam uma base para acompanhar novas coletas e obser
 - Visualização de dados
 - Construção de dashboard
 - Análise exploratória
+- Definição de perguntas de negócio
+- Análise de dados por cruzamentos
+- Interpretação de indicadores e construção de insights
 
 ---
 
@@ -171,7 +253,8 @@ A versão pública contém:
 
 - arquivo `.pbix` do dashboard na pasta [`Dashboard`](./Dashboard/);
 - base fictícia utilizada no portfólio na pasta [`Dados`](./Dados/);
-- imagens do relatório na pasta [`Imagens`](./Imagens/);
+- imagens do relatório e do desenvolvimento na pasta [`Imagens`](./Imagens/);
+- caderno de análise detalhada e relatório executivo na pasta [`Documentação`](./Documenta%C3%A7%C3%A3o/);
 - documentação do projeto neste README.
 
 A base utilizada no trabalho profissional permanece privada e não faz parte deste repositório.
